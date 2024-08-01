@@ -1,0 +1,86 @@
+.cuadro{
+    height: 200px;
+    width: 200px;
+    transition: 0.5s;
+    background-color: rgb(142, 173, 31);
+}
+
+#cuadro-1{
+    background-color: aliceblue;
+}
+
+#cuadro-2{
+    background-color: aqua;
+}
+
+#cuadro-3{
+    background-color: black;
+}
+
+#cuadro-4{
+    background-color: blue;
+}
+
+#cuadro-5{
+    background-color: blueviolet;
+}
+
+#cuadro-6{    
+    background-color: brown;
+}
+
+#cuadro-7{
+    background-color: cadetblue;
+}   
+
+#cuadro-8{
+    background-color: chartreuse;
+}
+
+#cuadro-9{    
+    background-color: crimson;
+}
+
+#cuadro-10{
+    background-color: cyan;
+}
+
+#cuadro-11{
+    background-color: darkgoldenrod;
+}   
+
+#cuadro-12{
+    background-color: darkgreen;
+}
+
+#cuadro-13{
+    background-color: darkorange;
+}
+
+#cuadro-14{
+    background-color: darkred;
+}
+
+#cuadro-15{
+    background-color: deeppink;
+}   
+
+#cuadro-16{
+    background-color: deepskyblue;
+}
+
+#cuadro-17{
+    background-color: hotpink;
+}
+
+#cuadro-18{
+    background-color: lightcoral;
+}
+
+#cuadro-19{
+    background-color: orange;
+}
+
+#cuadro-20{
+
+}
