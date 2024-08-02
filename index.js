@@ -1,29 +1,30 @@
 // Variables
-// inicializar array de letras
+// inicializar array de letras con pares de letras (A, A, B, B, ...)
 // inicializar contador de intentos en 0
 // inicializar estado del juego como "no iniciado"
 // inicializar tablero como vacío
+// inicializar temporizador
 
-
-
-// Función para mezclar las letras aleatoriamente
+// // Función para mezclar las letras aleatoriamente
 // función mezclarLetras(array):
 //     para cada i desde la longitud del array - 1 hasta 1:
 //         generar índice aleatorio j entre 0 e i
 //         intercambiar array[i] con array[j]
 //     retornar array
 
-// Función para inicializar el juego
+// // Función para inicializar el juego
 // función inicializarJuego():
 //     incrementar contador de intentos en 1
 //     inicializar estado del juego como "en progreso"
 //     mezclar array de letras
 //     colocar letras en el tablero de manera oculta (tapadas con un color)
+//     reiniciar y comenzar el temporizador
 
-    // Mostrar tablero al jugador
-    // mostrarTableroOculto()
+//     // Mostrar tablero al jugador
+//     mostrarTableroOculto()
+//     actualizar contador de intentos en la interfaz
 
-// Función para manejar el clic en una celda del tablero
+// // Función para manejar el clic en una celda del tablero
 // función manejarClicCelda(celda):
 //     si el estado del juego es "en progreso":
 //         descubrir celda
@@ -37,6 +38,7 @@
 //                 si todas están descubiertas:
 //                     cambiar estado del juego a "completado"
 //                     mostrar mensaje de victoria
+//                     detener temporizador
 //             sino:
 //                 ocultar ambas celdas después de un breve tiempo
 
@@ -53,8 +55,14 @@
 // función ocultarCelda(celda):
 //     ocultar letra con el color tapado
 
+// // Función para actualizar el temporizador
+// función actualizarTemporizador():
+//     incrementar temporizador cada segundo
+//     mostrar tiempo transcurrido en la interfaz
+
 // // Inicializar el juego al cargar la página
 // al cargar la página:
 //     inicializar array de letras con pares de letras
 //     asignar manejador de eventos al botón "empezar" para llamar a la función inicializarJuego
 //     asignar manejador de eventos a cada celda del tablero para llamar a la función manejarClicCelda
+//     inicializar y mostrar contador de intentos y temporizador en la interfaz
