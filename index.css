@@ -1,8 +1,27 @@
 .cuadro{
-    height: 200px;
-    width: 200px;
+    height: 100px;
     transition: 0.5s;
     background-color: rgb(142, 173, 31);
+}
+
+#cuadro-0{
+    background-color: lightslategray;
+}
+
+#cuadro-01{
+    background-color: mediumblue;
+}
+
+#cuadro-02{
+    background-color: linen;
+}   
+
+#cuadro-03{
+    background-color: indianred;
+}
+
+#cuadro-04{
+    background-color: mediumturquoise;
 }
 
 #cuadro-1{
@@ -64,23 +83,3 @@
 #cuadro-15{
     background-color: deeppink;
 }   
-
-#cuadro-16{
-    background-color: deepskyblue;
-}
-
-#cuadro-17{
-    background-color: hotpink;
-}
-
-#cuadro-18{
-    background-color: lightcoral;
-}
-
-#cuadro-19{
-    background-color: orange;
-}
-
-#cuadro-20{
-
-}
